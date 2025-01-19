@@ -1,0 +1,10 @@
+public class Player ; MonoBehaviour
+{
+ private int health = 10;
+//A method that lowers the player's health
+
+ create a TakeDamage method
+
+}
+
+                                                
