@@ -1,10 +1,17 @@
-public class Player ; MonoBehaviour
+public class Player : MonoBehaviour
 {
+ //Player Health
  private int health = 10;
-//A method that lowers the player's health
 
- create a TakeDamage method
+ //Number of coins collected
+ private int coins;
 
-}
+ //The Fireball prefab and the Transform parameter of the attack point
+ public GameObject fireballPrefab;
+ public Transform attackPoint;
 
-                                                
+
+ //A method that lowers the player's health
+ public void TakeDamage(int damage)
+{
+ health-= damage
